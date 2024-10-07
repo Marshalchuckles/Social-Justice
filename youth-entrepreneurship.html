@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Entrepreneurship Hub - Social Justice</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="youth-entrepreneurship.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="governance.html">Governance</a>
+            <a href="mental-health.html">Mental Health</a>
+            <a href="early-warning.html">Early Warning</a>
+            <a href="data-visualization.html">Data</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Youth Entrepreneurship Hub</h1>
+            <p>Empowering young entrepreneurs to succeed by providing resources, mentorship, and funding opportunities.</p>
+            <div class="hero-buttons">
+                <button onclick="findMentor()">Find a Mentor</button>
+                <button onclick="applyForFunding()">Apply for Funding</button>
+                <button onclick="submitBusinessIdea()">Submit a Business Idea</button>
+            </div>
+        </section>
+
+        <!-- Success Stories Section -->
+        <section class="success-stories">
+            <h2>Success Stories</h2>
+            <p>Inspiring testimonials from young entrepreneurs who have turned their ideas into successful businesses.</p>
+            <div class="stories-grid">
+                <div class="story">
+                    <h3>Jane Doe</h3>
+                    <p>Founder of EcoWear, a sustainable clothing brand that promotes eco-friendly fashion.</p>
+                </div>
+                <div class="story">
+                    <h3>John Smith</h3>
+                    <p>CEO of CleanTech, a startup focused on innovative water purification solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mentorship Programs Section -->
+        <section class="mentorship">
+            <h2>Mentorship Programs</h2>
+            <p>Get matched with experienced mentors to guide you on your entrepreneurial journey.</p>
+            <ul>
+                <li><a href="#">Tech Entrepreneurship Mentorship</a></li>
+                <li><a href="#">Social Enterprise Mentorship</a></li>
+                <li><a href="#">Creative Industry Mentorship</a></li>
+            </ul>
+        </section>
+
+        <!-- Funding Opportunities Section -->
+        <section class="funding">
+            <h2>Funding Opportunities</h2>
+            <p>Explore grants, loans, and investment opportunities available for young entrepreneurs.</p>
+            <ul>
+                <li><a href="#">Youth Business Grants</a></li>
+                <li><a href="#">Startup Loans</a></li>
+                <li><a href="#">Investment Opportunities</a></li>
+            </ul>
+        </section>
+
+        <!-- Submit Business Idea Section -->
+        <section class="business-idea">
+            <h2>Submit Your Business Idea</h2>
+            <p>Have a great startup idea? Submit it here for feedback from industry experts and potential investors.</p>
+            <form id="business-idea-form">
+                <label for="idea-title">Business Idea Title:</label>
+                <input type="text" id="idea-title" name="idea-title" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+
+                <label for="contact-email">Your Contact Email:</label>
+                <input type="email" id="contact-email" name="contact-email" required>
+
+                <button type="submit">Submit Idea</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Social Justice. All rights reserved.</p>
+    </footer>
+
+    <script src="youth-entrepreneurship.js"></script>
+</body>
+</html>

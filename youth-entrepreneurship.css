@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    background-color: #800000; /* Maroon */
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-buttons button {
+    background-color: #43a047; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hero-buttons button:hover {
+    background-color: #388e3c;
+}
+
+/* Success Stories */
+.success-stories {
+    margin: 30px 0;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.story {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+/* Mentorship Programs and Funding */
+.mentorship, .funding {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.mentorship ul, .funding ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mentorship ul li, .funding ul li {
+    margin: 10px 0;
+}
+
+/* Submit Business Idea Section */
+.business-idea form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.business-idea form input, .business-idea form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.business-idea form button {
+    background-color: #d32f2f; /* Red */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.business-idea form button:hover {
+    background-color: #c62828;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .stories-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .business-idea form input, .business-idea form textarea {
+        width: 60%;
+    }
+}

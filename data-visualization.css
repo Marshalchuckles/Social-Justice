@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    background-color: #800000; /* Maroon */
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+/* Hero Section */
+.hero {
+    margin: 20px 0;
+}
+
+/* Data Sections */
+.data-section {
+    margin: 40px 0;
+}
+
+.chart-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Section */
+.table-section {
+    margin: 40px 0;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+thead {
+    background-color: #800000;
+    color: white;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .chart-container {
+        width: 70%;
+    }
+
+    table {
+        width: 70%;
+    }
+}

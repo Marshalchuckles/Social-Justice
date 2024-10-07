@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization - Social Justice</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="data-visualization.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="governance.html">Governance</a>
+            <a href="mental-health.html">Mental Health</a>
+            <a href="early-warning.html">Early Warning</a>
+            <a href="youth-entrepreneurship.html">Entrepreneurship</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Data Visualization Dashboard</h1>
+            <p>Explore key data insights on governance, economy, human rights, education, and environmental sustainability.</p>
+        </section>
+
+        <!-- Governance Data Section -->
+        <section class="data-section">
+            <h2>Governance & Accountability</h2>
+            <p>Key metrics on government transparency, citizen engagement, and public accountability.</p>
+            <div class="chart-container">
+                <canvas id="governanceChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Economic Empowerment Data Section -->
+        <section class="data-section">
+            <h2>Economic Empowerment</h2>
+            <p>Data on financial inclusion, job creation, and wealth distribution.</p>
+            <div class="chart-container">
+                <canvas id="economyChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Human Rights & Security Data Section -->
+        <section class="data-section">
+            <h2>Human Rights & Security</h2>
+            <p>Statistics on civil liberties, law enforcement, and personal security.</p>
+            <div class="chart-container">
+                <canvas id="humanRightsChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Education & Skill Development Data Section -->
+        <section class="data-section">
+            <h2>Education & Skill Development</h2>
+            <p>Tracking progress on access to education, literacy rates, and skill-building programs.</p>
+            <div class="chart-container">
+                <canvas id="educationChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Environmental Sustainability Data Section -->
+        <section class="data-section">
+            <h2>Environmental Sustainability</h2>
+            <p>Data on climate change, renewable energy use, and sustainability initiatives.</p>
+            <div class="chart-container">
+                <canvas id="environmentChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Interactive Table Section (Placeholder for Data Points) -->
+        <section class="table-section">
+            <h2>Explore More Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Metric</th>
+                        <th>Value</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Governance</td>
+                        <td>Corruption Index</td>
+                        <td>42/100</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Economy</td>
+                        <td>Unemployment Rate</td>
+                        <td>12.5%</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Human Rights</td>
+                        <td>Press Freedom Score</td>
+                        <td>67/100</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Social Justice. All rights reserved.</p>
+    </footer>
+
+    <script src="data-visualization.js"></script>
+</body>
+</html>

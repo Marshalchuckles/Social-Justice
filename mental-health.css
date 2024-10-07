@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    background-color: #800000; /* Maroon */
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-buttons button {
+    background-color: #008000; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hero-buttons button:hover {
+    background-color: #006400;
+}
+
+/* Wellness Resources */
+.wellness-resources ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.wellness-resources ul li {
+    margin: 10px 0;
+}
+
+/* Mental Health Stories */
+.mental-health-stories .stories {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.mental-health-stories article {
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.mental-health-stories article button {
+    background-color: #ffcc00; /* Gold */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* Self-Care Tips */
+.self-care-tips .tips {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.tip {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Chatbot Section */
+#chatbot-btn {
+    background-color: #800000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    cursor: not-allowed;
+}
+
+@media (min-width: 768px) {
+    .mental-health-stories .stories {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .self-care-tips .tips {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

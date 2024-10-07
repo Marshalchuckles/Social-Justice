@@ -1,0 +1,122 @@
+/* Economic Empowerment Page Specific CSS */
+
+/* Banner Section */
+#banner {
+    background-image: url('images/economic-banner.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+#banner p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Overview Section */
+#overview {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#overview h3 {
+    font-size: 28px;
+    color: maroon;
+    margin-bottom: 15px;
+}
+
+#overview p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Mentorship & Funding Sections */
+#mentor-section, #funding-section {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#mentor-section h3, #funding-section h3 {
+    font-size: 28px;
+    color: maroon;
+    margin-bottom: 15px;
+}
+
+#mentor-section p, #funding-section p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Success Stories Section */
+#success-stories {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.story-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.story {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-width: 220px;
+}
+
+.story img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.story p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Resources Section */
+#resources {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+#resources h3 {
+    font-size: 28px;
+    color: maroon;
+    margin-bottom: 15px;
+}
+
+#resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+#resources ul li {
+    margin-bottom: 10px;
+}
+
+#resources ul li a {
+    font-size: 18px;
+    color: maroon;
+    text-decoration: none;
+}
+
+#resources ul li a:hover {
+    text-decoration: underline;
+}

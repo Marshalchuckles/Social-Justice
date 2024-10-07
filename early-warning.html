@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Early Warning System - Social Justice</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="early-warning.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="governance.html">Governance</a>
+            <a href="mental-health.html">Mental Health</a>
+            <a href="youth-entrepreneurship.html">Entrepreneurship</a>
+            <a href="data-visualization.html">Data</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Early Warning System</h1>
+            <p>Monitoring conflict risks in real-time to prevent escalation.</p>
+            <div class="hero-buttons">
+                <button onclick="viewDashboard()">View Risk Dashboard</button>
+                <button onclick="reportConflict()">Report a Conflict</button>
+                <button onclick="viewAlerts()">View Alerts</button>
+            </div>
+        </section>
+
+        <!-- Conflict Heat Map Section -->
+        <section class="heat-map">
+            <h2>Conflict Heat Map</h2>
+            <p>Interactive map showing areas with rising conflict risks.</p>
+            <div id="map">
+                <p>Map will be displayed here (placeholder).</p>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works">
+            <h2>How It Works</h2>
+            <p>The Early Warning System uses data from social media and public reports to monitor potential conflict zones. We employ AI and machine learning to analyze patterns, social sentiment, and keywords to predict tensions before they escalate.</p>
+        </section>
+
+        <!-- Prevention Resources Section -->
+        <section class="prevention-resources">
+            <h2>Prevention Resources</h2>
+            <ul>
+                <li><a href="#">Conflict Resolution Strategies</a></li>
+                <li><a href="#">Peacebuilding Workshops</a></li>
+                <li><a href="#">Learn More About Mediation</a></li>
+            </ul>
+        </section>
+
+        <!-- Placeholder for Alerts Section -->
+        <section class="alerts">
+            <h2>Real-Time Alerts</h2>
+            <p>Stay informed about ongoing conflicts with real-time notifications.</p>
+            <button id="alerts-btn">View Ongoing Alerts (Coming Soon)</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Social Justice. All rights reserved.</p>
+    </footer>
+
+    <script src="early-warning.js"></script>
+</body>
+</html>

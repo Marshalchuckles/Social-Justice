@@ -1,0 +1,158 @@
+/* Governance Page Specific Styles */
+
+/* Header styling (making it consistent with other pages) */
+header {
+    background-color: maroon;
+    color: white;
+    padding: 10px 0;
+}
+
+header .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.cta-buttons .cta-btn {
+    background-color: green; /* Making buttons green */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons .cta-btn:hover {
+    background-color: darkgreen; /* Slight hover effect */
+}
+
+/* Know Your Rights Accordion */
+.know-your-rights h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    padding: 10px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 10px;
+    display: none;
+}
+
+/* Success Stories */
+.success-stories h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.story-carousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.story {
+    text-align: center;
+    width: 30%;
+}
+
+.story img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.story p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Legal Resources */
+.legal-resources h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.legal-resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.legal-resources ul li {
+    margin-bottom: 10px;
+}
+
+.legal-resources ul li a {
+    color: green; /* Link color for consistency */
+    text-decoration: none;
+}
+
+.legal-resources ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Interactive Features */
+.interactive-features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.interactive-features input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.interactive-features button {
+    padding: 10px;
+    background-color: green; /* Consistent green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.interactive-features button:hover {
+    background-color: darkgreen;
+}
+
+/* Chat Support Button */
+.chat-support button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.chat-support button:hover {
+    background-color: darkgreen;
+}
